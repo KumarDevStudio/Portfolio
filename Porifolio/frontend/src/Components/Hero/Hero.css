@@ -1,0 +1,142 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img{
+    margin-top: 150px;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 300;
+}
+.hero h1 span{
+    font-size: 90px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.hero-resume a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+
+.hero-connect:hover{
+    border:  2px solid white;
+}
+.hero-resume:hover{
+    border-color: #b415ff;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .hero img {
+        margin-top: 120px;
+        width: 260px;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+        width: 90%; 
+        font-size: 60px; 
+    }
+
+    .hero p {
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px; 
+        margin: 10px 0;
+    }
+
+    .hero-action {
+        gap: 16px; /* Adjust gap between actions */
+        font-size: 18px; /* Slightly smaller font */
+        font-weight: 500;
+        margin-bottom: 40px; /* Reduced margin-bottom */
+    }
+
+    .hero-connect {
+        padding: 15px 25px; 
+        border-radius: 40px; 
+    }
+
+    .hero-resume {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero img {
+        margin-top: 100px;
+        width: 200px; 
+    }
+
+    .hero h1 {
+        margin-top: 30px;
+        width: 100%; 
+        font-size: 40px; 
+    }
+
+    .hero p {
+        width: 80%;
+        font-size: 16px;
+        line-height: 28px; 
+        margin: 8px 0;
+    }
+
+    .hero-action {
+        flex-direction: column; /* Ensure buttons stay vertical */
+        gap: 12px; /* Smaller gap between buttons */
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        align-items: center; /* Center buttons horizontally */
+    }
+
+    .hero-connect {
+        padding: 12px 20px; 
+        border-radius: 35px;
+    }
+
+    .hero-resume {
+        padding: 15px 40px;
+        border-radius: 35px; 
+    }
+}
