@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+.progress-bar {
+  @apply h-2 bg-gray-200 dark:bg-gray-600 rounded-full overflow-hidden;
+}
+
+.progress-bar-fill {
+  @apply h-full bg-blue-600 dark:bg-blue-400 transition-all duration-500;
+}
+
+@keyframes hoverLift {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
+
+.hover-lift:hover {
+  animation: hoverLift 0.3s ease-out forwards;
+}

@@ -1,0 +1,2071 @@
+{"level":"error","message":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:113:18\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:110:44\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:291:5)\n    at internalNext (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\helmet\\index.cjs:531:6)\n    at xXssProtectionMiddleware (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\helmet\\index.cjs:311:3)","service":"portfolio-api","timestamp":"2025-09-27T06:18:01.917Z"}
+{"level":"error","message":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:113:18\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:110:44\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:291:5)\n    at internalNext (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\helmet\\index.cjs:531:6)\n    at xXssProtectionMiddleware (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\helmet\\index.cjs:311:3)","service":"portfolio-api","timestamp":"2025-09-27T06:18:12.767Z"}
+{"error":"Cannot set property query of #<IncomingMessage> which has only a getter","ip":"::1","level":"error","message":"Error occurred:","method":"POST","service":"portfolio-api","stack":"TypeError: Cannot set property query of #<IncomingMessage> which has only a getter\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:113:18\n    at Array.forEach (<anonymous>)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-mongo-sanitize\\index.js:110:44\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:291:5)\n    at urlencodedParser (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\body-parser\\lib\\types\\urlencoded.js:57:7)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)","timestamp":"2025-09-27T06:29:23.261Z","url":"/admin/login"}
+{"level":"error","message":"Login error: Cannot read properties of undefined (reading '_errorResponse')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading '_errorResponse')\n    at login (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:129:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27T16:22:52.282Z"}
+{"level":"error","message":"Login error: Cannot read properties of undefined (reading '_errorResponse')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading '_errorResponse')\n    at login (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:129:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27T16:26:33.167Z"}
+{"level":"error","message":"Login error: Cannot read properties of undefined (reading '_errorResponse')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading '_errorResponse')\n    at login (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:129:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27T16:26:45.074Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-09-27T16:42:29.963Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-09-27T16:44:20.460Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)","syscall":"getaddrinfo","timestamp":"2025-09-27T16:45:47.501Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)","syscall":"getaddrinfo","timestamp":"2025-10-03T06:21:09.658Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)","syscall":"getaddrinfo","timestamp":"2025-10-03T06:22:09.686Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)","syscall":"getaddrinfo","timestamp":"2025-10-03T06:22:19.078Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)","syscall":"getaddrinfo","timestamp":"2025-10-03T06:22:30.168Z"}
+{"code":"EDNS","command":"CONN","errno":-3008,"hostname":"smtp.example.com","level":"error","message":"Failed to send contact notification email: getaddrinfo ENOTFOUND smtp.example.com","service":"portfolio-api","stack":"Error: getaddrinfo ENOTFOUND smtp.example.com\n    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)","syscall":"getaddrinfo","timestamp":"2025-10-03T06:22:36.515Z"}
+{"_message":"Experience validation failed","errors":{"employmentType":{"kind":"required","message":"Path `employmentType` is required.","name":"ValidatorError","path":"employmentType","properties":{"message":"Path `employmentType` is required.","path":"employmentType","type":"required"}}},"level":"error","message":"Create experience error: Experience validation failed: employmentType: Path `employmentType` is required.","service":"portfolio-api","stack":"ValidationError: Experience validation failed: employmentType: Path `employmentType` is required.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-03T06:37:51.627Z"}
+{"_message":"Experience validation failed","errors":{"employmentType":{"kind":"required","message":"Path `employmentType` is required.","name":"ValidatorError","path":"employmentType","properties":{"message":"Path `employmentType` is required.","path":"employmentType","type":"required"}}},"level":"error","message":"Create experience error: Experience validation failed: employmentType: Path `employmentType` is required.","service":"portfolio-api","stack":"ValidationError: Experience validation failed: employmentType: Path `employmentType` is required.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-03T06:39:11.935Z"}
+{"_message":"Experience validation failed","errors":{"employmentType":{"kind":"required","message":"Path `employmentType` is required.","name":"ValidatorError","path":"employmentType","properties":{"message":"Path `employmentType` is required.","path":"employmentType","type":"required"}}},"level":"error","message":"Create experience error: Experience validation failed: employmentType: Path `employmentType` is required.","service":"portfolio-api","stack":"ValidationError: Experience validation failed: employmentType: Path `employmentType` is required.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-03T06:41:53.141Z"}
+{"_message":"Experience validation failed","errors":{"employmentType":{"kind":"required","message":"Path `employmentType` is required.","name":"ValidatorError","path":"employmentType","properties":{"message":"Path `employmentType` is required.","path":"employmentType","type":"required"}}},"level":"error","message":"Create experience error: Experience validation failed: employmentType: Path `employmentType` is required.","service":"portfolio-api","stack":"ValidationError: Experience validation failed: employmentType: Path `employmentType` is required.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-03T06:43:43.515Z"}
+{"level":"error","message":"Get file info error: Cannot read properties of undefined (reading 'uploadDir')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'uploadDir')\n    at UploadController.getFileInfo (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\UploadController.js:258:47)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:295:15\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:600:14)\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:610:14)\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:664:3)","timestamp":"2025-10-03T06:46:23.808Z"}
+{"level":"error","message":"Delete file error: Cannot read properties of undefined (reading 'uploadDir')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'uploadDir')\n    at UploadController.deleteFile (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\UploadController.js:215:47)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:295:15\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:600:14)\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:610:14)\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:664:3)","timestamp":"2025-10-03T06:46:54.186Z"}
+{"level":"error","message":"Delete file error: Cannot read properties of undefined (reading 'uploadDir')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'uploadDir')\n    at UploadController.deleteFile (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\UploadController.js:215:47)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:295:15\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:600:14)\n    at param (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:610:14)\n    at processParams (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\index.js:664:3)","timestamp":"2025-10-03T07:26:46.080Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:24:20.643Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:24:20.676Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:24:43.882Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:24:43.919Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:26:55.419Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:26:55.464Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:27:31.534Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:27:31.570Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:27:49.800Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:307:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:298:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T09:27:49.840Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T15:10:08.666Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T15:10:08.737Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T15:11:28.244Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T15:11:28.363Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T16:55:32.982Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T16:55:33.117Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T16:56:21.863Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T16:56:21.902Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:13.255Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:13.341Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:15.409Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:16.618Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:16.849Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:17.081Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:19.154Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:27.516Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:27.585Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:41.950Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:03:41.958Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:04:39.872Z"}
+{"level":"error","message":"Get active sessions error: Cannot read properties of undefined (reading 'refreshToken')","service":"portfolio-api","stack":"TypeError: Cannot read properties of undefined (reading 'refreshToken')\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:452:54\n    at Array.map (<anonymous>)\n    at AdminController.getActiveSessions (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\AdminController.js:443:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-04T17:04:39.914Z"}
+{"level":"error","message":"Update profile error: Cannot destructure property 'firstName' of 'req.body' as it is undefined.","service":"portfolio-api","stack":"TypeError: Cannot destructure property 'firstName' of 'req.body' as it is undefined.\n    at ProfileController.updateProfile (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:169:9)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at validateProfileUpdate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\routes\\profile.js:134:5)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-05T07:57:45.157Z"}
+{"_message":"Profile validation failed","errors":{"features.0.icon":{"kind":"required","message":"Path `icon` is required.","name":"ValidatorError","path":"icon","properties":{"message":"Path `icon` is required.","path":"icon","type":"required"}},"features.0.text":{"kind":"required","message":"Path `text` is required.","name":"ValidatorError","path":"text","properties":{"message":"Path `text` is required.","path":"text","type":"required"}},"features.1.icon":{"kind":"required","message":"Path `icon` is required.","name":"ValidatorError","path":"icon","properties":{"message":"Path `icon` is required.","path":"icon","type":"required"}},"features.1.text":{"kind":"required","message":"Path `text` is required.","name":"ValidatorError","path":"text","properties":{"message":"Path `text` is required.","path":"text","type":"required"}},"features.2.icon":{"kind":"required","message":"Path `icon` is required.","name":"ValidatorError","path":"icon","properties":{"message":"Path `icon` is required.","path":"icon","type":"required"}},"features.2.text":{"kind":"required","message":"Path `text` is required.","name":"ValidatorError","path":"text","properties":{"message":"Path `text` is required.","path":"text","type":"required"}}},"level":"error","message":"Update profile error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.","service":"portfolio-api","stack":"ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-05T07:58:10.961Z"}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.705Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.706Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.706Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.707Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.708Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.708Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.709Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.709Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.710Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.710Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.711Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:00.711Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadProfileImage (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:298:22)',
+  filePath: 'uploads\\file-240_F_283056373_Iqz1k9uTUXl3gwVEsH8NlbHY2VHRek8m-r-1759755124154-3da2507cbb2f.png',
+  options: { folder: 'portfolio/profile', resource_type: 'image' },
+  level: 'error',
+  timestamp: '2025-10-06T12:52:07.189Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:399:22)',
+  filePath: 'uploads\\file-resume_F_updated-1759755127246-89c2eef002d5.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T12:52:10.296Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.863Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.864Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.864Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.865Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.866Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.866Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.867Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.867Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.869Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.870Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.871Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T12:52:23.871Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:65:5)\n' +
+    '    at process.processTimers (node:internal/timers:540:9)\n' +
+    '    at async ProfileController.uploadProfileImage (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:298:22)',
+  filePath: 'uploads\\file-240_F_283056373_Iqz1k9uTUXl3gwVEsH8NlbHY2VHRek8m-r-1759755166608-4de721305f6d.png',
+  options: { folder: 'portfolio/profile', resource_type: 'image' },
+  level: 'error',
+  timestamp: '2025-10-06T12:52:49.664Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:65:5)\n' +
+    '    at process.processTimers (node:internal/timers:540:9)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:399:22)',
+  filePath: 'uploads\\file-resume_F_updated__1_-1759755169689-18234c518c05.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T12:52:52.755Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:18.663Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:18.768Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:18.882Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.006Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.290Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.445Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.467Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.726Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.815Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.817Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:19.928Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:13:20.098Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload profile image error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:13:27.334Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:445:22)',
+  filePath: 'uploads\\file-resume_F_updated__1_-1759756407426-57f88ddb6d4c.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T13:13:30.456Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.765Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.766Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.766Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.767Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.768Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.768Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.769Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.769Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.770Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.770Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.771Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:27.772Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload profile image error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:24:33.411Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:65:5)\n' +
+    '    at process.processTimers (node:internal/timers:540:9)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:445:22)',
+  filePath: 'uploads\\file-resume_F_updated__1_-1759757073475-a37cad82b553.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T13:24:36.518Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.509Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.510Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.511Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.513Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.515Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.515Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.516Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.517Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.517Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.518Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.518Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:24:48.519Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload profile image error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:25:17.620Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:445:22)',
+  filePath: 'uploads\\file-resume_F_updated-1759757117678-f897843878a8.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T13:25:20.729Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.292Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.293Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.294Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.294Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.295Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.295Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.296Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.296Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.297Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.297Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.298Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:29:06.298Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadProfileImage (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:298:22)',
+  filePath: 'uploads\\file-240_F_283056373_Iqz1k9uTUXl3gwVEsH8NlbHY2VHRek8m-r-1759757354416-fb5a3a687901.png',
+  options: { folder: 'portfolio/profile', resource_type: 'image' },
+  level: 'error',
+  timestamp: '2025-10-06T13:29:17.528Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:408:22)',
+  filePath: 'uploads\\file-resume_F_updated-1759757357577-cf3a712a6b7e.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T13:29:20.633Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.788Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.790Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.790Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.791Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.792Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.793Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.793Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.794Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.794Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.795Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.795Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  hasCloudName: false,
+  hasApiKey: false,
+  hasApiSecret: false,
+  level: 'error',
+  message: 'Cloudinary configuration missing!',
+  timestamp: '2025-10-06T13:30:31.796Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadProfileImage (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:298:22)',
+  filePath: 'uploads\\file-240_F_283056373_Iqz1k9uTUXl3gwVEsH8NlbHY2VHRek8m-r-1759757459227-f43858bad88b.png',
+  options: { folder: 'portfolio/profile', resource_type: 'image' },
+  level: 'error',
+  timestamp: '2025-10-06T13:31:02.273Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Cloudinary upload failed after 3 attempts Must supply api_key',
+  code: undefined,
+  statusCode: undefined,
+  stack: 'Error: Must supply api_key\n' +
+    '    at ensureOption (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\ensureOption.js:19:13)\n' +
+    '    at Object.sign_request (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1151:16)\n' +
+    '    at Object.process_request_params (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1203:22)\n' +
+    '    at call_api (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:474:18)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\uploader.js:53:10)\n' +
+    '    at Object.upload (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\cloudinary\\lib\\utils\\index.js:1400:21)\n' +
+    '    at ProfileController._uploadToCloudinaryWithRetry (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:88:48)\n' +
+    '    at async ProfileController.uploadResume (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ProfileController.js:408:22)',
+  filePath: 'uploads\\file-resume_F_updated-1759757462300-74853a0d84c1.pdf',
+  options: { folder: 'portfolio/resume', resource_type: 'raw' },
+  level: 'error',
+  timestamp: '2025-10-06T13:31:05.421Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload profile image error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:40:54.753Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload resume error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:40:55.920Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload profile image error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:47:13.651Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  errors: {
+    'features.0.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.0.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.1.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.text': ValidatorError: Path `text` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `text` is required.',
+        type: 'required',
+        path: 'text',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'text',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    },
+    'features.2.icon': ValidatorError: Path `icon` is required.
+        at validate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1414:13)
+        at SchemaType.doValidate (C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\schemaType.js:1398:7)
+        at C:\Users\Kishan\Desktop\MERn\portf\backend_V1\node_modules\mongoose\lib\document.js:3115:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `icon` is required.',
+        type: 'required',
+        path: 'icon',
+        fullPath: undefined,
+        value: undefined
+      },
+      kind: 'required',
+      path: 'icon',
+      value: undefined,
+      reason: undefined,
+      Symbol(mongoose#validatorError): true
+    }
+  },
+  _message: 'Profile validation failed',
+  level: 'error',
+  message: 'Upload resume error: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.text: Path `text` is required., features.0.icon: Path `icon` is required., features.1.text: Path `text` is required., features.1.icon: Path `icon` is required., features.2.text: Path `text` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  timestamp: '2025-10-06T13:47:14.735Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Upload profile image error: Profile validation failed: features.0.icon: Path `icon` is required., features.1.icon: Path `icon` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.icon: Path `icon` is required., features.1.icon: Path `icon` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  level: 'error',
+  timestamp: '2025-10-06T14:22:44.322Z'
+}
+{
+  service: 'portfolio-api',
+  requestId: [Function: requestId],
+  message: 'Upload resume error: Profile validation failed: features.0.icon: Path `icon` is required., features.1.icon: Path `icon` is required., features.2.icon: Path `icon` is required.',
+  stack: 'ValidationError: Profile validation failed: features.0.icon: Path `icon` is required., features.1.icon: Path `icon` is required., features.2.icon: Path `icon` is required.\n' +
+    '    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n' +
+    '    at Subdocument.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\types\\subdocument.js:229:12)\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n' +
+    '    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)',
+  level: 'error',
+  timestamp: '2025-10-06T14:22:45.540Z'
+}
+{"ip":"::1","level":"error","message":"Refresh token error RefreshToken validation failed: revokedReason: `token_rotation` is not a valid enum value for path `revokedReason`.","service":"portfolio-api","stack":"ValidationError: RefreshToken validation failed: revokedReason: `token_rotation` is not a valid enum value for path `revokedReason`.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-10-06T15:40:06.573Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error sending contact notification: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7f4c5093a56sm8061273b3a.47 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7f4c5093a56sm8061273b3a.47 - gsmtp","responseCode":535,"service":"portfolio-api","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7f4c5093a56sm8061273b3a.47 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:508:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)","timestamp":"2025-12-13T14:12:57.917Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error sending contact notification: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29ee9b36b3dsm83029075ad.4 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29ee9b36b3dsm83029075ad.4 - gsmtp","responseCode":535,"service":"portfolio-api","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29ee9b36b3dsm83029075ad.4 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:508:28)\n    at addChunk (node:internal/streams/readable:559:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)\n    at Readable.push (node:internal/streams/readable:390:5)","timestamp":"2025-12-13T14:24:15.240Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error sending contact notification: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b0836556desm149356775ad.47 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b0836556desm149356775ad.47 - gsmtp","responseCode":535,"service":"portfolio-api","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b0836556desm149356775ad.47 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-03-23T13:45:20.401Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error sending contact notification: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b03bbebb2sm10429349b3a.14 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b03bbebb2sm10429349b3a.14 - gsmtp","responseCode":535,"service":"portfolio-api","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-82b03bbebb2sm10429349b3a.14 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-03-23T13:45:57.943Z"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","message":"Error sending reply email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c74487b5b8csm8124668a12.31 - gsmtp","response":"535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c74487b5b8csm8124668a12.31 - gsmtp","responseCode":535,"service":"portfolio-api","stack":"Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-c74487b5b8csm8124668a12.31 - gsmtp\n    at SMTPConnection._formatError (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:809:19)\n    at SMTPConnection._actionAUTHComplete (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:1595:34)\n    at SMTPConnection.<anonymous> (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:556:26)\n    at SMTPConnection._processResponse (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:993:20)\n    at SMTPConnection._onData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:774:14)\n    at SMTPConnection._onSocketData (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\nodemailer\\lib\\smtp-connection\\index.js:195:44)\n    at TLSSocket.emit (node:events:524:28)\n    at addChunk (node:internal/streams/readable:561:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)\n    at Readable.push (node:internal/streams/readable:392:5)","timestamp":"2026-03-23T13:46:30.817Z"}
+{"ip":"::1","level":"error","message":"Refresh token error RefreshToken validation failed: revokedReason: `token_rotation` is not a valid enum value for path `revokedReason`.","service":"portfolio-api","stack":"ValidationError: RefreshToken validation failed: revokedReason: `token_rotation` is not a valid enum value for path `revokedReason`.\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3123:17\n    at C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\schemaType.js:1417:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2026-03-25T09:40:45.870Z"}
+{"_message":"Experience validation failed","errors":{"_id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"\"","value":"","valueType":"string"}},"level":"error","message":"Create experience error: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","service":"portfolio-api","stack":"ValidationError: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1484:12)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1136:16)\n    at model.Document (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:4845:15)\n    at create (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ExperienceController.js:233:26)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\multer\\lib\\make-middleware.js:59:7)","timestamp":"2026-03-25T09:46:41.354Z"}
+{"_message":"Experience validation failed","errors":{"_id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"\"","value":"","valueType":"string"}},"level":"error","message":"Create experience error: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","service":"portfolio-api","stack":"ValidationError: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1484:12)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1136:16)\n    at model.Document (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:4845:15)\n    at create (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ExperienceController.js:233:26)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\multer\\lib\\make-middleware.js:59:7)","timestamp":"2026-03-25T09:47:43.203Z"}
+{"_message":"Experience validation failed","errors":{"_id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"\"","value":"","valueType":"string"}},"level":"error","message":"Create experience error: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","service":"portfolio-api","stack":"ValidationError: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1484:12)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1136:16)\n    at model.Document (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:4845:15)\n    at create (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ExperienceController.js:233:26)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\multer\\lib\\make-middleware.js:59:7)","timestamp":"2026-03-25T09:49:07.328Z"}
+{"_message":"Experience validation failed","errors":{"_id":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"\"","value":"","valueType":"string"}},"level":"error","message":"Create experience error: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"","service":"portfolio-api","stack":"ValidationError: Experience validation failed: _id: Cast to ObjectId failed for value \"\" (type string) at path \"_id\" because of \"BSONError\"\n    at Document.invalidate (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:3362:32)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1484:12)\n    at model.$set (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:1136:16)\n    at model.Document (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\document.js:178:12)\n    at model.Model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:127:12)\n    at new model (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongoose\\lib\\model.js:4845:15)\n    at create (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\controllers\\ExperienceController.js:233:26)\n    at Layer.handleRequest (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\multer\\lib\\make-middleware.js:59:7)","timestamp":"2026-03-25T09:58:22.511Z"}
+{"email":"boss734748@gmail.com","ip":"::1","level":"error","message":"Forgot password error E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }","service":"portfolio-api","stack":"MongoServerError: E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }\n    at InsertOneOperation.handleOk (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-03-28T11:06:51.338Z"}
+{"ip":"::1","level":"error","message":"Admin route error E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }","method":"POST","path":"/forgot-password","service":"portfolio-api","stack":"MongoServerError: E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }\n    at InsertOneOperation.handleOk (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-03-28T11:06:51.340Z"}
+{"email":"boss734748@gmail.com","ip":"::1","level":"error","message":"Forgot password error E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }","service":"portfolio-api","stack":"MongoServerError: E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }\n    at InsertOneOperation.handleOk (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-03-28T11:46:52.986Z"}
+{"ip":"::1","level":"error","message":"Admin route error E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }","method":"POST","path":"/forgot-password","service":"portfolio-api","stack":"MongoServerError: E11000 duplicate key error collection: portfolio.passwordresettokens index: token_1 dup key: { token: null }\n    at InsertOneOperation.handleOk (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at tryOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:214:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async executeOperation (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async Collection.insertOne (C:\\Users\\Kishan\\Desktop\\MERn\\portf\\backend_V1\\node_modules\\mongodb\\lib\\collection.js:154:16)","timestamp":"2026-03-28T11:46:52.987Z"}
