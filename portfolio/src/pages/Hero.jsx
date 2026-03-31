@@ -92,7 +92,7 @@ const Hero = () => {
 
       try {
         // Get API URL and ensure no trailing slash
-        const apiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/$/, '');
+        const apiUrl = (import.meta.env.VITE_API_URL || 'https://portfolio-backend-agym.onrender.com').replace(/\/$/, '');
         
         const response = await fetchWithRetry(
           `${apiUrl}/profile/public`,

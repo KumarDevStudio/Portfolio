@@ -589,7 +589,7 @@ const Projects = () => {
                   className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-full hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base">
                   Get In Touch
                 </a>
-                <a href="https://github.com/kishan-webdev" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/KumarDevStudio" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 hover:scale-105 shadow-lg border border-gray-200 dark:border-gray-700 text-sm sm:text-base">
                   <Github className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />View GitHub
                 </a>
