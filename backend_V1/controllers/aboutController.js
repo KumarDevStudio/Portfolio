@@ -1,9 +1,10 @@
 const About = require('../models/About');
 const { logger } = require('../utils/helpers');
 const { body, validationResult } = require('express-validator');
+const cloudinary = require('cloudinary').v2;
 const fs = require('fs').promises;
 const path = require('path');
-
+const { cache, CACHE_KEYS, CACHE_TTL } = require('../utils/cache');
 /**
  * @desc    Get public about content
  * @route   GET /api/about
@@ -11,6 +12,18 @@ const path = require('path');
  */
 exports.getPublicAbout = async (req, res, next) => {
   try {
+    // 🔥 1. Try cache first
+    const cached = await cache.get(CACHE_KEYS.publicAbout);
+    if (cached) {
+      return res.status(200).json({
+        success: true,
+        data: cached,
+        cached: true,
+        timestamp: new Date().toISOString(),
+      });
+    }
+
+    // 🔥 2. Fetch from DB
     const about = await About.getPublic();
 
     if (!about) {
@@ -20,6 +33,9 @@ exports.getPublicAbout = async (req, res, next) => {
         code: 'ABOUT_NOT_FOUND',
       });
     }
+
+    // 🔥 3. Store in cache
+    await cache.set(CACHE_KEYS.publicAbout, about, CACHE_TTL.publicAbout);
 
     res.status(200).json({
       success: true,
@@ -92,6 +108,7 @@ exports.createAbout = async (req, res, next) => {
     };
 
     const about = await About.create(aboutData);
+    await cache.del(CACHE_KEYS.publicAbout);
     logger.info(`About content created by admin: ${req.admin.username}`);
 
     res.status(201).json({
@@ -122,41 +139,28 @@ exports.createAbout = async (req, res, next) => {
  */
 exports.uploadProfileImage = async (req, res, next) => {
   try {
-    if (!req.file) {
+    const image = req.uploadedFiles?.image?.[0];
+
+    if (!image) {
       return res.status(400).json({
         success: false,
-        message: 'No image file uploaded',
+        message: 'No image uploaded',
         code: 'NO_IMAGE_UPLOADED',
       });
     }
 
-    // multer-storage-cloudinary sets:
-    //   req.file.path     → full Cloudinary HTTPS URL
-    //   req.file.filename → public_id  (e.g. portfolio/about/file_xxx)
-    const imageData = {
-      filename:     req.file.filename,      // public_id for deletion later
-      originalName: req.file.originalname,
-      url:          req.file.path,          // Cloudinary URL — store this in DB
-      fullUrl:      req.file.path,          // same
-      size:         req.file.size,
-      mimetype:     req.file.mimetype,
-      uploadedAt:   new Date().toISOString(),
-      uploadedBy:   req.admin.username,
-    };
-
-    logger.info(`Profile image uploaded to Cloudinary: ${req.file.filename} by ${req.admin.username}`);
+    logger.info(`Profile image uploaded: ${image.publicId} by ${req.admin.username}`);
 
     res.status(201).json({
       success: true,
       message: 'Image uploaded successfully',
-      data: imageData,
+      data: image,
     });
   } catch (error) {
     logger.error('Upload profile image error:', error);
     next(error);
   }
 };
-
 /**
  * @desc    Delete profile image
  * @route   DELETE /api/admin/about/image/:filename
@@ -164,38 +168,25 @@ exports.uploadProfileImage = async (req, res, next) => {
  */
 exports.deleteProfileImage = async (req, res, next) => {
   try {
-    const { filename } = req.params;
+    const { publicId } = req.params;
 
-    // Validate filename to prevent path traversal
-    if (!filename || filename.includes('..') || filename.includes('/')) {
+    if (!publicId) {
       return res.status(400).json({
         success: false,
-        message: 'Invalid filename',
-        code: 'INVALID_FILENAME',
+        message: 'Invalid publicId',
+        code: 'INVALID_PUBLIC_ID',
       });
     }
 
-    const filePath = path.resolve(__dirname, '..', 'uploads', filename);
+    await cloudinary.uploader.destroy(publicId);
 
-    try {
-      await fs.unlink(filePath);
-      logger.info(`Profile image deleted: ${filename} by admin: ${req.admin.username}`);
+    logger.info(`Cloudinary image deleted: ${publicId} by ${req.admin.username}`);
 
-      res.status(200).json({
-        success: true,
-        message: 'Image deleted successfully',
-        data: { filename },
-      });
-    } catch (error) {
-      if (error.code === 'ENOENT') {
-        return res.status(404).json({
-          success: false,
-          message: 'Image not found',
-          code: 'IMAGE_NOT_FOUND',
-        });
-      }
-      throw error;
-    }
+    res.status(200).json({
+      success: true,
+      message: 'Image deleted successfully',
+      data: { publicId },
+    });
   } catch (error) {
     logger.error('Delete profile image error:', error);
     next(error);
@@ -222,13 +213,30 @@ exports.updateAbout = async (req, res, next) => {
     const { id } = req.params;
     const about = await About.findById(id);
 
-    if (!about) {
-      return res.status(404).json({
-        success: false,
-        message: 'About content not found',
-        code: 'ABOUT_NOT_FOUND',
-      });
-    }
+if (!about) {
+  return res.status(404).json({
+    success: false,
+    message: 'About content not found',
+    code: 'ABOUT_NOT_FOUND',
+  });
+}
+
+// ✅ NOW safe
+if (req.uploadedFiles?.image?.[0]) {
+  const newImage = req.uploadedFiles.image[0];
+
+if (about.imagePublicId) {
+  try {
+    await cloudinary.uploader.destroy(about.imagePublicId);
+    logger.info(`Deleted Cloudinary image: ${about.imagePublicId}`);
+  } catch (err) {
+    logger.warn(`Failed to delete Cloudinary image: ${about.imagePublicId}`, err);
+  }
+}
+
+  about.imageUrl = newImage.url;
+  about.imagePublicId = newImage.publicId;
+}
 
     const allowedFields = [
       'name', 'location', 'experience', 'imageUrl', 'imageAlt',
@@ -246,6 +254,7 @@ exports.updateAbout = async (req, res, next) => {
     about.metadata.version += 1;
 
     await about.save();
+    await cache.del(CACHE_KEYS.publicAbout);
     logger.info(`About content updated by admin: ${req.admin.username}`);
 
     const updatedAbout = await About.findById(id)
@@ -299,7 +308,7 @@ exports.toggleAboutStatus = async (req, res, next) => {
     about.isActive = !about.isActive;
     about.metadata.updatedBy = req.admin.id;
     await about.save();
-
+await cache.del(CACHE_KEYS.publicAbout);
     logger.info(`About status toggled by admin: ${req.admin.username}`);
 
     res.status(200).json({
@@ -331,19 +340,10 @@ exports.deleteAbout = async (req, res, next) => {
       });
     }
 
-    if (about.imageUrl?.startsWith('/uploads/')) {
-      const filename = path.basename(about.imageUrl);
-      const filePath = path.resolve(__dirname, '..', 'uploads', filename);
-
-      try {
-        await fs.unlink(filePath);
-        logger.info(`Deleted associated image: ${filename}`);
-      } catch (err) {
-        logger.warn(`Could not delete image: ${filename}`, err);
-      }
-    }
+  
 
     await about.deleteOne();
+await cache.del(CACHE_KEYS.publicAbout);
     logger.info(`About content deleted by admin: ${req.admin.username}`);
 
     res.status(200).json({

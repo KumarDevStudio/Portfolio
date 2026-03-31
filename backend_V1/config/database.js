@@ -91,9 +91,6 @@ class DatabaseConfig {
       logger.info('🔌 MongoDB connection closed');
     });
 
-    // Graceful shutdown handlers
-    process.on('SIGINT', async () => { await this.disconnect(); });
-    process.on('SIGTERM', async () => { await this.disconnect(); });
   }
 
   /**
