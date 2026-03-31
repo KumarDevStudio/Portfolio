@@ -10,6 +10,7 @@ const REQUEST_TIMEOUT = 30000; // 30 seconds
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
   timeout: REQUEST_TIMEOUT,
+  withCredentials: true,        
   headers: {
     'Content-Type': 'application/json',
   },
