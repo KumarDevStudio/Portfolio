@@ -34,7 +34,7 @@ const Skills = () => {
 
   // ✅ FIX 2: apiUrl memoized — no longer recreated on every render
   const apiUrl = useMemo(
-    () => (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').replace(/\/$/, ''),
+    () => (import.meta.env.VITE_API_URL || 'https://portfolio-backend-agym.onrender.com/api').replace(/\/$/, ''),
     []
   );
 
