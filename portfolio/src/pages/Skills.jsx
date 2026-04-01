@@ -19,9 +19,61 @@ import {
   RefreshCw
 } from 'lucide-react';
 
-// ✅ FIX 1: capitalize helper used for level normalization
+// ── Stable constants outside component ──────────────────────────────────────
+
+const categoryIcons = {
+  frontend: <Monitor className="w-6 h-6" />,
+  backend: <Server className="w-6 h-6" />,
+  database: <Database className="w-6 h-6" />,
+  tools: <Settings className="w-6 h-6" />,
+  devops: <Cloud className="w-6 h-6" />,
+  cloud: <Cloud className="w-6 h-6" />,
+  mobile: <Smartphone className="w-6 h-6" />,
+  design: <Palette className="w-6 h-6" />
+};
+
+const skillIcons = {
+  'HTML': <Globe className="w-5 h-5" />,
+  'CSS': <Palette className="w-5 h-5" />,
+  'Tailwind CSS': <Layers className="w-5 h-5" />,
+  'Bootstrap': <Layers className="w-5 h-5" />,
+  'React': <Code className="w-5 h-5" />,
+  'Vue.js': <Code className="w-5 h-5" />,
+  'JavaScript': <Code className="w-5 h-5" />,
+  'TypeScript': <Code className="w-5 h-5" />,
+  'Next.js': <Layers className="w-5 h-5" />,
+  'Node.js': <Server className="w-5 h-5" />,
+  'Express.js': <Server className="w-5 h-5" />,
+  'Python': <Terminal className="w-5 h-5" />,
+  'PHP': <Code className="w-5 h-5" />,
+  'MongoDB': <Database className="w-5 h-5" />,
+  'PostgreSQL': <Database className="w-5 h-5" />,
+  'MySQL': <Database className="w-5 h-5" />,
+  'Redis': <Database className="w-5 h-5" />,
+  'Git': <GitBranch className="w-5 h-5" />,
+  'Docker': <Layers className="w-5 h-5" />,
+  'AWS': <Cloud className="w-5 h-5" />,
+  'Figma': <Palette className="w-5 h-5" />
+};
+
+const getDefaultColor = (category) => {
+  const colors = {
+    frontend: 'from-blue-400 to-cyan-500',
+    backend: 'from-green-500 to-green-700',
+    database: 'from-purple-500 to-indigo-600',
+    tools: 'from-orange-400 to-red-500',
+    devops: 'from-blue-500 to-indigo-600',
+    cloud: 'from-yellow-400 to-orange-500',
+    mobile: 'from-pink-400 to-rose-500',
+    design: 'from-fuchsia-400 to-purple-500'
+  };
+  return colors[category.toLowerCase()] || 'from-gray-400 to-gray-600';
+};
+
 const capitalize = (s) =>
   s ? s.charAt(0).toUpperCase() + s.slice(1).toLowerCase() : 'Intermediate';
+
+// ── Component ────────────────────────────────────────────────────────────────
 
 const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,65 +84,11 @@ const Skills = () => {
   const [error, setError] = useState(null);
   const sectionRef = useRef(null);
 
-  // ✅ FIX 2: apiUrl memoized — no longer recreated on every render
   const apiUrl = useMemo(
     () => (import.meta.env.VITE_API_URL || 'https://portfolio-backend-agym.onrender.com/api').replace(/\/$/, ''),
     []
   );
 
-  // Icon mappings
-  const categoryIcons = {
-    frontend: <Monitor className="w-6 h-6" />,
-    backend: <Server className="w-6 h-6" />,
-    database: <Database className="w-6 h-6" />,
-    tools: <Settings className="w-6 h-6" />,
-    devops: <Cloud className="w-6 h-6" />,
-    cloud: <Cloud className="w-6 h-6" />,
-    mobile: <Smartphone className="w-6 h-6" />,
-    design: <Palette className="w-6 h-6" />
-  };
-
-  const skillIcons = {
-    'HTML': <Globe className="w-5 h-5" />,
-    'CSS': <Palette className="w-5 h-5" />,
-    'Tailwind CSS': <Layers className="w-5 h-5" />,
-    'Bootstrap': <Layers className="w-5 h-5" />,
-    'React': <Code className="w-5 h-5" />,
-    'Vue.js': <Code className="w-5 h-5" />,
-    'JavaScript': <Code className="w-5 h-5" />,
-    'TypeScript': <Code className="w-5 h-5" />,
-    'Next.js': <Layers className="w-5 h-5" />,
-    'Node.js': <Server className="w-5 h-5" />,
-    'Express.js': <Server className="w-5 h-5" />,
-    'Python': <Terminal className="w-5 h-5" />,
-    'PHP': <Code className="w-5 h-5" />,
-    'MongoDB': <Database className="w-5 h-5" />,
-    'PostgreSQL': <Database className="w-5 h-5" />,
-    'MySQL': <Database className="w-5 h-5" />,
-    'Redis': <Database className="w-5 h-5" />,
-    'Git': <GitBranch className="w-5 h-5" />,
-    'Docker': <Layers className="w-5 h-5" />,
-    'AWS': <Cloud className="w-5 h-5" />,
-    'Figma': <Palette className="w-5 h-5" />
-  };
-
-  // Get default color based on category
-  const getDefaultColor = (category) => {
-    const colors = {
-      frontend: 'from-blue-400 to-cyan-500',
-      backend: 'from-green-500 to-green-700',
-      database: 'from-purple-500 to-indigo-600',
-      tools: 'from-orange-400 to-red-500',
-      devops: 'from-blue-500 to-indigo-600',
-      cloud: 'from-yellow-400 to-orange-500',
-      mobile: 'from-pink-400 to-rose-500',
-      design: 'from-fuchsia-400 to-purple-500'
-    };
-    return colors[category.toLowerCase()] || 'from-gray-400 to-gray-600';
-  };
-
-  // Fetch skills from API
-  // ✅ FIX 3: wrapped in useCallback so the dependency array in useEffect is stable
   const fetchSkills = useCallback(async () => {
     try {
       setLoading(true);
@@ -113,21 +111,17 @@ const Skills = () => {
             transformedData[categoryKey] = skills.map(skill => ({
               name: skill.name,
               proficiencyScore: skill.proficiency || skill.proficiencyScore || 50,
-              // ✅ FIX 4: capitalize level so it matches getLevelBadgeColor keys
-              // Backend returns lowercase ('intermediate'), keys expect 'Intermediate'
               level: capitalize(skill.level),
               yearsOfExperience: skill.yearsOfExperience || 0,
               monthsOfExperience: skill.monthsOfExperience || 0,
               experienceLabel: skill.yearsOfExperience
                 ? `${skill.yearsOfExperience}+ years`
                 : 'New to this',
-              // color stays as Tailwind gradient string (hex from backend is unusable here)
               color: getDefaultColor(category),
               projects: skill.projects?.length || 0,
               certified: skill.certifications?.length > 0 || false,
               description: skill.description || '',
               tags: skill.tags || [],
-              // ✅ FIX 5: backend stores this as 'featured', not 'isFavorite'
               isFavorite: skill.featured || false,
             }));
           });
@@ -143,12 +137,10 @@ const Skills = () => {
     }
   }, [apiUrl]);
 
-  // ✅ FIX 6: fetchSkills is now stable via useCallback, safe in dep array
   useEffect(() => {
     fetchSkills();
   }, [fetchSkills]);
 
-  // Intersection observer for animations
   useEffect(() => {
     if (Object.keys(skillsData).length === 0) return;
 
@@ -204,22 +196,6 @@ const Skills = () => {
     };
     return colors[level] || 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300';
   };
-
-  // const getTotalProjects = () =>
-  //   Object.values(skillsData).flat().reduce((total, skill) => total + skill.projects, 0);
-
-  // const getTotalCertifications = () =>
-  //   Object.values(skillsData).flat().filter(skill => skill.certified).length;
-
-  // // ✅ FIX 7: returns a readable string instead of raw "0.0"
-  // const getTotalExperience = () => {
-  //   const skills = Object.values(skillsData).flat();
-  //   if (skills.length === 0) return '< 1';
-  //   const maxExp = Math.max(
-  //     ...skills.map(s => s.yearsOfExperience + (s.monthsOfExperience || 0) / 12)
-  //   );
-  //   return maxExp > 0 ? maxExp.toFixed(1) : '< 1';
-  // };
 
   // Loading state
   if (loading) {
@@ -301,22 +277,6 @@ const Skills = () => {
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
             Technologies and tools I use to bring innovative ideas to life, backed by real-world experience
           </p>
-
-          {/* Stats */}
-          {/* <div className="flex justify-center items-center space-x-8 mt-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400">{getTotalProjects()}</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Projects Built</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">{getTotalCertifications()}</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Certifications</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">{getTotalExperience()}+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
-            </div>
-          </div> */}
         </div>
 
         {/* Skills Grid */}
@@ -377,7 +337,6 @@ const Skills = () => {
                                   <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
                                 )}
                               </div>
-                              {/* level is now always capitalized so badge colors will match */}
                               <span className={`inline-block px-2 py-1 text-xs font-medium rounded-full mt-1 ${getLevelBadgeColor(skill.level)}`}>
                                 {skill.level}
                               </span>
