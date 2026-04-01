@@ -152,12 +152,12 @@ const SkillsPage = () => {
     }
 
     // Uniqueness check (case-sensitive since backend uses enum)
-    const existingCategories = skills
-      .filter((s) => s._id !== editingId)
-      .map((s) => s.category);
-    if (existingCategories.includes(formData.category)) {
-      errors.push('Category name already exists');
-    }
+const existingCategories = skills
+  .filter((s) => s._id !== editingId && s.category !== originalCategory)
+  .map((s) => s.category);
+if (existingCategories.includes(formData.category)) {
+  errors.push('Category name already exists');
+}
 
     if (!Array.isArray(formData.skills) || formData.skills.length === 0) {
       errors.push('At least one skill is required');
@@ -211,7 +211,9 @@ const SkillsPage = () => {
 
     const issues = [];
     if (!data.category) issues.push('Missing category');
-    if (!validCategories.includes(data.category)) issues.push('Invalid category');
+    if (data.category && !validCategories.map(c => c.toLowerCase()).includes(data.category.toLowerCase())) {
+  issues.push('Invalid category');
+}
     if (!Array.isArray(data.skills)) issues.push('Skills is not an array');
     if (data.skills?.length === 0) issues.push('No skills provided');
 
@@ -320,8 +322,10 @@ const SkillsPage = () => {
       formDataToSend.append('icon', files[index]);
     }
 
-    const endpoint = isEditing && index === 0 ? `/skills/${editingId}` : '/skills';
-    const method = isEditing && index === 0 ? 'PUT' : 'POST';
+    
+const skillId = isEditing && index === 0 ? editingId : null;
+const endpoint = skillId ? `/skills/${skillId}` : '/skills';
+const method = skillId ? 'PUT' : 'POST';
 
     return apiRequest(method, endpoint, formDataToSend, token, apiConfig.baseUrl);
   })
@@ -662,7 +666,7 @@ const response = results[0];
                     </div>
                     <div className="flex space-x-2">
                       <button
-                        onClick={() => handleEdit(skillCategory)}
+                        onClick={() => handleEdit(categorySkills[0])}
                         className="text-indigo-600 hover:text-indigo-800 dark:text-indigo-400 dark:hover:text-indigo-300 transition-colors p-1 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
                         disabled={loading}
                         aria-label={`Edit ${skillCategory.category}`}
@@ -670,7 +674,7 @@ const response = results[0];
                         <Edit2 size={16} />
                       </button>
                       <button
-                        onClick={() => handleDelete(skillCategory._id, skillCategory.name)}
+                       onClick={() => handleDelete(skillCategory._id, skillCategory.category)}
                         className="text-red-600 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300 transition-colors p-1 rounded focus:outline-none focus:ring-2 focus:ring-red-500"
                         disabled={loading}
                         aria-label={`Delete ${skillCategory.category}`}
@@ -692,7 +696,7 @@ const response = results[0];
                               <h5 className="font-medium text-gray-900 dark:text-white text-sm">
                                 {skill.name}
                               </h5>
-                              {skill.isFavorite && (
+                              {skill.featured && (
                                 <span className="text-xs bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200 px-1 py-0.5 rounded">
                                   ⭐ Favorite
                                 </span>
@@ -705,7 +709,7 @@ const response = results[0];
                               </div>
                               <div className="flex justify-between">
                                 <span>Score:</span>
-                                <span>{skill.proficiencyScore}%</span>
+                               <span>{skill.proficiency}%</span>
                               </div>
                               <div className="flex justify-between">
                                 <span>Experience:</span>
