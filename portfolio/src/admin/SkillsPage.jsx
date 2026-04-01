@@ -301,36 +301,33 @@ const SkillsPage = () => {
       }
 
 
-      const formDataToSend = new FormData();
+      const results = await Promise.all(
+  sanitizedData.skills.map(async (skill, index) => {
+    const formDataToSend = new FormData();
+    formDataToSend.append('name', skill.name);
+    formDataToSend.append('category', sanitizedData.category);
+    formDataToSend.append('level', skill.level);
+    formDataToSend.append('proficiency', skill.proficiencyScore);
+    formDataToSend.append('yearsOfExperience', skill.yearsOfExperience);
+    formDataToSend.append('monthsOfExperience', skill.monthsOfExperience);
+    formDataToSend.append('description', skill.description || '');
+    formDataToSend.append('color', skill.color || '');
+    formDataToSend.append('featured', skill.isFavorite ? 'true' : 'false');
+    formDataToSend.append('status', sanitizedData.isVisible ? 'active' : 'inactive');
+    formDataToSend.append('order', sanitizedData.displayOrder + index);
 
-      const skill = sanitizedData.skills[0];
+    if (files[index] instanceof File) {
+      formDataToSend.append('icon', files[index]);
+    }
 
-      formDataToSend.append('name', skill.name);
-      formDataToSend.append('category', sanitizedData.category);
-      formDataToSend.append('level', skill.level);
-      formDataToSend.append('proficiency', skill.proficiencyScore);
-      formDataToSend.append('yearsOfExperience', skill.yearsOfExperience);
-      formDataToSend.append('monthsOfExperience', skill.monthsOfExperience);
-      formDataToSend.append('description', skill.description || '');
-      formDataToSend.append('color', skill.color || '');
-      formDataToSend.append('featured', skill.isFavorite ? 'true' : 'false');
-      formDataToSend.append('status', sanitizedData.isVisible ? 'active' : 'inactive');
-      formDataToSend.append('order', sanitizedData.displayOrder);
+    const endpoint = isEditing && index === 0 ? `/skills/${editingId}` : '/skills';
+    const method = isEditing && index === 0 ? 'PUT' : 'POST';
 
-      if (files[0] instanceof File) {
-        formDataToSend.append('icon', files[0]);
-      }
+    return apiRequest(method, endpoint, formDataToSend, token, apiConfig.baseUrl);
+  })
+);
 
-      const endpoint = isEditing ? `/skills/${editingId}` : '/skills';
-      const method = isEditing ? 'PUT' : 'POST';
-
-      const response = await apiRequest(
-        method,
-        endpoint,
-        formDataToSend,
-        token,
-        apiConfig.baseUrl
-      );
+const response = results[0];
 
       if (response.data.success) {
         toast.success(isEditing ? 'Skill category updated successfully!' : 'Skill category created successfully!');
